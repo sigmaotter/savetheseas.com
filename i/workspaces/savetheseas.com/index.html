@@ -1,0 +1,74 @@
+<head>
+    <style>
+        body {
+            background-color: rgb(62, 102, 138);
+            display: block;
+
+        }
+        header div {
+            background-color: aquamarine;
+            border-radius: 20px;
+            border: 3px solid black;
+            height: 80px;
+            text-align: center;
+            font-size: 50px;
+            margin: 60px;
+        }
+        info div {
+            background-color: aquamarine;
+            border-radius: 30px;
+            border: 3px solid black;
+            text-align: center;
+            margin: 20px;
+        }
+        info div:hover {
+            background-image: url(https://assets.worldwildlife.org/www-prd/images/wwfcmsprodimagesTurtle_and_P.2e16d0ba.fill-1200x630-c100.jpg);
+            transition: 1s;
+            cursor: pointer;
+        }
+        info div p {
+            font-size: 20px;
+        }
+        header div img {
+            height: 70px;
+            margin: 7px;
+            position: absolute;
+            top: 60px; 
+            right: 350px;
+        }
+        header div p {
+            position: absolute;
+            top: 30px;
+            right: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGgTk0uzIx-brfOATZZh5xVgVoDG5COeSaDGwgXlUe5PZsEkHBS3rO6Gf&s=10">
+            <p>Protect sea life!</p>
+        </div>
+    </header>
+    <info>
+        <div role="button" onclick="window.open('Plastic.html')">
+            <h1>
+                Plastic is killing turtles!
+            </h1>
+            <p>We should start our movement now</p>
+        </div>
+        <div role="button" onclick="window.open('Rubbish.html')">
+            <h1>
+                Rubbish is polluting the ocean!
+            </h1>
+            <p>We should start our movement now</p>
+        </div>
+        <div role="button" onclick="window.open('Unswimable.html')">
+            <h1>
+                Seas in some places are unswimable!
+            </h1>
+            <p>We should start our movement now</p>
+        </div>
+    </info>
+</body>
